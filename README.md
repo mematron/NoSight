@@ -8,3 +8,5 @@ If you open the Applescript file inside the script editor part of MacOS you'll s
 Applescript is a very powerfull scripting language that can even make system calls with Unix commands.  I went ahead and made this script into an application to made it kinda of pretty.  You can toggle between an off and on state.  Keep in mind that this doesn't just disable a built-in camera.  It will turn off video input for all sources connected to your Mac.
 
 The video input will really be off and NO you can't bypass this.  So the old trick of having the camera on but disabling the green indicator light isn't going to fool this.  This is as good as cutting off the power from the computer.  You know that saying about the only secure computer is the one that's turned off and sunk at the bottom of the ocean?
+
+mematron
