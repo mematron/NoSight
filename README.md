@@ -1,7 +1,7 @@
 # NoSight
 Putting tape over your webcam won't help you but this will.
 
-So in 2014 I made this applescript to automate turning off and on my iSight camera on my MacBook Pro.  It should work on any Mac.  Basically what it does is deny read access to the "QuickTimeUSBVDCDigitizer" plugin located at "/System/Library/QuickTime/QuickTimeUSBVDCDigitizer.component/Contents/MacOS"  and also denies "VDC" from being read which is inside of "VDC.plugin" located at "/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin/Contents/MacOS/"
+In 2014 I wrote this to automate turning off and on my iSight camera on my MacBook Pro.  It should work on any Mac.  Basically what it does is deny read access to the "QuickTimeUSBVDCDigitizer" plugin located at "/System/Library/QuickTime/QuickTimeUSBVDCDigitizer.component/Contents/MacOS"  and also denies "VDC" from being read which is inside of "VDC.plugin" located at "/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/VDC.plugin/Contents/MacOS/"
 
 If you open the Applescript file inside the script editor part of MacOS you'll see in detail every step that is made including "/bin/chmod a-r" argument that is the secret sauce.
 
